@@ -1,10 +1,10 @@
 let inputBtn = document.querySelectorAll('.input-btn')
 let input = document.getElementById('input')
 let clipboardSpan = document.querySelector('span')
-var audioBtn = new Audio("../audio/click-btn.wav");
-var audioAC = new Audio("../audio/click-AC.wav");
-var audioEqual = new Audio("../audio/click-equal.wav");
-var audioCopy = new Audio("../audio/click-copy.wav");
+var audioBtn = new Audio("./audio/click-btn.wav");
+var audioAC = new Audio("./audio/click-AC.wav");
+var audioEqual = new Audio("./audio/click-equal.wav");
+var audioCopy = new Audio("./audio/click-copy.wav");
 
 inputBtn.forEach(btn=>{
     btn.addEventListener('click',(e)=>{
